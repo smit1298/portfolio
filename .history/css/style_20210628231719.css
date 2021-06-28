@@ -401,8 +401,8 @@ a:active {
 ======================================================*/
 
 #skills {
-    /* background-image: url("../img/skills/coding.jpg"); */
-    background-image: linear-gradient(rgba(196, 192, 192, 0.349), rgba(160, 154, 154, 0.342)), url(../img/skills/coding.jpg);
+    background-image: url("../img/skills/coding.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
 
     background-size: cover;
     background-position: center center;
