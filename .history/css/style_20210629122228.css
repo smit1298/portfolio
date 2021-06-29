@@ -8,7 +8,7 @@ body {
 }
 .mini{
     color: cornflowerblue;
-    font-size: medium;
+    font-size: ;
 }
 @media (min-width: 992px) {
     body {

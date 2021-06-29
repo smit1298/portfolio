@@ -6,10 +6,7 @@ body {
     padding-top: 54px;
     color: #868e96;
 }
-.mini{
-    color: cornflowerblue;
-    font-size: medium;
-}
+.m
 @media (min-width: 992px) {
     body {
         padding-top: 0;
