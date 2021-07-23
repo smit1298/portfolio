@@ -6,8 +6,8 @@ body {
     padding-top: 54px;
     color: #868e96;
 }
-.subheading {
-    color: #fff !important;
+.subheading .h3 {
+    color: cornflowerblue !important;
 }
 @media (min-width: 992px) {
     body {

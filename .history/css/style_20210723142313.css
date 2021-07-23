@@ -6,8 +6,9 @@ body {
     padding-top: 54px;
     color: #868e96;
 }
-.subheading {
-    color: #fff !important;
+.mini{
+    color: cornflowerblue !;
+    font-size: medium;
 }
 @media (min-width: 992px) {
     body {
