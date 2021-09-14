@@ -220,6 +220,9 @@ a:active {
       background-color: #607d8b;
   }
 
+  #about h1 {
+    /* font-size: 100%; */
+  }
 
 /*==================================================
                     EXPERIENCE
