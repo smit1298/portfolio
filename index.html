@@ -1,692 +1,457 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="A portfolio website for myself">  
+		<meta name="description" content="html, css, javascript">  
+		<meta name="author" content="Temitope Isaiah">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>Temitope Isaiah</title>
+		<!-- CSS ================================================== -->
+		<link rel="stylesheet" href="css/base.css">  
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/vendor.css"> 
+		
+		<!-- favicons ================================================== -->
+		<link rel="icon" type="image/png" href="favicon.jpeg">
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+		<!-- script ================================================== -->   
+		<script src="js/modernizr.js"></script>
+		<script src="js/pace.min.js"></script>
+	</head>
 
-  <link rel="shortcut icon" href="./img/portfolio3.png" />
-  <title>Temitope Isaiah</title>
+	<body id="top">
+		<!-- header ================================================== -->
+		<header>   	
+			<div class="row">
+				<div class="top-bar">
+					<a class="menu-toggle" href="#"><span>Menu</span></a>
+					<div class="logo">
+						<a href="index.html">TEMITOPE</a>
+					</div>		      
+					<nav id="main-nav-wrap">
+						<ul class="main-navigation">
+							<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+							<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+							<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>
+							<li><a class="smoothscroll"  href="#services" title="">Services</a></li>					
+							<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>				
+						</ul>
+					</nav>    		
+				</div>
+			</div>		
+		</header> <!-- /header -->
 
-  <!-- Global stylesheets -->
-  <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900"
-    rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
-    rel="stylesheet" />
-  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-  <link href="css/devicons/css/devicons.min.css" rel="stylesheet" />
-  <link href="css/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" />
-  <link href="css/style.css" rel="stylesheet" />
-</head>
+		<!-- intro section ================================================== -->
+		<section id="intro">   
+			<div class="intro-overlay"></div>	
 
-<body id="page-top">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none mx-0 px-0">
-        <img alt="" class="img-fluid" />
-      </span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="./img/portfolio3.png" alt="" />
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-        </li>
+			<div class="intro-content">
+				<div class="row">
+					<div class="col-twelve">
+						<h5>Hello World, I am,</h5>
+						
+						<h1>Temitope Samson Isaiah.</h1>
+						<p class="intro-position"><span>Front-end Developer</span><span>Software Engineer</span></p>
+						<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+					</div>  
+				</div>   		 		
+			</div><!-- /intro-content --> 
 
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#educations">educations</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+			<ul class="intro-social">        
+				<li><a target="_blank" href="https://github.com/smit1298"><i class="fa fa-github"></i></a></li>
+				<li><a target="_blank" href="https://twitter.com/engr_smit"><i class="fa fa-twitter"></i></a></li>
+				<li><a target="_blank" href="https://www.linkedin.com/in/isaiah-temitope-03b43a19a/"><i class="fa fa-linkedin"></i></a></li>
+			</ul><!-- /intro-social -->    	
+		</section> <!-- /intro -->
 
-  <div class="container-fluid p-0">
-    <!--====================================================
-                        ABOUT
-    ======================================================-->
-    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-      <div class="my-auto">
-        <h1>i<span>'m</span></h1>
-        <h2 class="mb-0">
-          <span style="color: white">Temitope</span>
-          <span class="text-primary">Isaiah</span>
-        </h2>
-        <div class="subheading mb-5">
-          <h3 class="mini" href="#"></h3>
-          LET'S GO TO THE DEPTH OF software development, <br />
-          THEre We MAKE THE WORLD A BETTER PLACE
-          </h3>
-        </div>
-        <p class="mb-5" style="max-width: 500px">
-          <span style="color: white">
-            Temitope is a Knowledgeable Front End Developer <br>
-            adept at creating successful websites that meet <br>
-            customer needs with little or no supervision. <br>
-            Specializing in collaborating with clients and <br>
-            team members to gather requirements, produce plans <br>
-            and improve designs for usability and functionality. <br>
-            Fully proficient in HTML, CSS, BOOTSTRAP, Javascript, <br>
-            ReactJs, Express Js, NodeJs and Mongodb. <br>
-            Ability to learn and implement new skills needed for <br>
-            the execution of projects.
-          </span>
-        </p>
+		<!-- about section ================================================== -->
+		<section id="about">  
+			<div class="row section-intro">
+				<div class="col-twelve">
+					<h5>About Me</h5>
+					<h1>Let me introduce myself.</h1>
+					<div class="intro-info">
+						<img src="images/profile.jpeg" alt="Profile Picture">
+						<p class="lead">Front-end Developer, Software Engineer and Javascript Enthusiast. I use latest technologies to create clean design and light
+						speed web applications to make sure your visitors don't sleep off before you can make an impression.</p>
+					</div>   			
+				</div>   		
+			</div><!-- /section-intro -->
 
-        <ul class="list-inline list-social-icons mb-0">
-          <li class="list-inline-item">
-            <a id="fbk" target="_blank" href="https://web.facebook.com/sammayrian">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a id="twt" target="_blank" href="https://twitter.com/engr_smit">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a id="lkdn" target="_blank" href="https://www.linkedin.com/in/isaiah-temitope-03b43a19a/">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a target="_blank" href="https://github.com/smit1298">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
+			<div class="row about-content">
+				<div class="col-six tab-full">
+					<h3>Profile</h3>
+					<p>I am outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease. I have a growth mindset and I believe that a person should work on developing their professional skills and learning new things all the time.</p>
+					<ul class="info-list">
+						<li>
+							<strong>Fullname:</strong>
+							<span>Temitope Samson Isaiah</span>
+						</li>
+						<li>
+							<strong>Birthday:</strong>
+							<span>January 17</span>
+						</li>
+						<li>
+							<strong>Job:</strong>
+							<span>Web Developer / Software Engineer</span>
+						</li>
+						<li>
+							<strong>Email:</strong>
+							<span>isaiahtemitope4@gmail.com</span>
+						</li>
+						<li>
+							<strong>Linkedin:</strong>
+							<span> <a target="_blank" href="https://www.linkedin.com/in/isaiah-temitope-03b43a19a/">Temitope Isaiah</a> </span>
+						</li>
+						<li>
+							<strong>Twitter:</strong>
+							<span><a target="_blank" href="https://twitter.com/engr_smit">@engr_smit</a> </span>
+						</li>
+					</ul><!-- /info-list -->
+				</div>
 
-    <!--====================================================
-                        EXPERIENCE
-    ======================================================-->
-    <section class="resume-section p-3 p-lg-5" id="experience">
-      <div class="row my-auto">
-        <div class="col-12">
-          <h2 class="text-center">Experience</h2>
-          <div class="mb-5 heading-border"></div>
-        </div>
-        <div class="resume-item col-md-6 col-sm-12">
-          <div class="card mx-0 p-4 mb-5" style="
-                border-color: #17a2b8;
-                box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);
-              ">
-            <div class="resume-content mr-auto">
-              <h4 class="mb-3">
-                <i class="fa fa-globe mr-3 text-info"></i> ReactJs Front-end Developer (Fellow)
-              </h4>
-              <p>
-                Knowledgeable Developer adept at creating successful websites that meet customer needs.Specializing in
-                collaborating
-                with clients to gather requirements, produce plans and improve designs for usability and functionality.
-                Fully proficient
-                in HTML, CSS, BOOTSTRAP, Javascript, ReactJs, Express Js, NodeJs and Mongodb.
+				<div class="col-six tab-full">
+					<h3>Skills</h3>
+					<p>I have good problem solving skills and I don't mind being challenged with projects that
+					require me to work outside my knowledge set, as continuing to learn new languages and development techniques are 
+					important to me and the success of my clients. Here are some of the tools i use.</p>
+					<ul class="skill-bars">
+						<li>
+							<img src="./images/svgs/html5-brands.svg"/>
+							<p>HTML5</p>
+						</li>
+						<li>
+							<img src="./images/svgs/css3-alt-brands.svg" />
+							<p>CSS3</p>
+						</li>
+						<li>
+							<img src="./images/svgs/js-brands.svg" />
+							<p>Javascript</p>
+						</li>
+						<li>
+							<img src="./images/svgs/react-brands.svg" />
+							<p>React</p>
+						</li>
+						<li>
+							<img src="./images/svgs/vue.svg" />
+							<p>Vue</p>
+						</li>
+						<li>
+							<img src="./images/svgs/sass-brands.svg" />
+							<p>SASS</p>
+						</li>
+						<li>
+							<img src="./images/svgs/bootstrap-brands.svg" />
+							<p>Bootstrap</p>
+						</li>
+						<li>
+							<img src="./images/svgs/redux.svg" />
+							<p>Redux</p>
+						</li>
+						<li>
+							<img src="./images/svgs/git-alt-brands.svg" />
+							<p>Git</p>
+						</li>
+						<li>
+							<img src="./images/svgs/next-js.svg" />
+							<p>Next js</p>
+						</li>
+						<li>
+							<img src="./images/svgs/tailwind-css-icon.svg" />
+							<p>Tailwind</p>
+						</li>
+						<li>
+							<img src="./images/svgs/figma.svg" />
+							<p>Figma</p>
+						</li>
+						
+					</ul>  <!-- /skill-bars -->		
+				</div>
+			</div>
 
-              </p>
+			<div class="row button-section">
+				<div class="col-twelve">
+					<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+				</div>   		
+			</div>
+		</section> <!-- /about -->
 
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">January 2022 - Present </span>
-            </div>
-          </div>
-        </div>
+		<!-- Portfolio Section ================================================== -->
+		<section id="portfolio">
+			<div class="row section-intro">
+				<div class="col-twelve">
+					<h5>Portfolio</h5>
+					<h1>Check Out Some of My Works.</h1>
+					<p class="lead">Here are some recent work from my range of works. </p>
+				</div>   		
+			</div><!-- /section-intro--> 
 
-        <div class="resume-item col-md-6 col-sm-12">
-          <div class="card mx-0 p-4 mb-5" style="
-                border-color: #2196f3;
-                box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);
-              ">
-            <div class="resume-content mr-auto">
-              <h4 class="mb-3">
-                <i class="fa fa-area-chart mr-3 text-primary"></i> Javascript developer (Intern)
-              </h4>
-              <p>
-                Write sustainable code that can be modified and scaled.
-                Created User Interface from UI/UX designs
-                Produced websites compatible with multiple browsers.
-                Work with web developers on both the front-end and back-end
-                through all phase of executing a language translator app for all languages in Nigeria.
-              </p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">January 2021 - June 2021</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+			<div class=" row portfolio-content">
+				<div class="col-twelve ">
+					<div id="folio-wrapper" class="block-1-2 block-mob-full stack  ">
+						
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/portfolio/pace.PNG" alt="pace">
+								<a href="#modal-01" class="overlay">	                  	           
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">PACE Africa</h3>	     					    
+											<span class="folio-types">Web Application</span>
+										</div>	                      	
+									</div>                    
+								</a>
+							</div>	               
+						</div> <!-- /folio-item -->
 
-    <!--====================================================
-                        PORTFOLIO
-    ======================================================-->
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
-      <div class="row my-auto">
-        <div class="col-12">
-          <h2 class="text-center">Portfolio</h2>
-          <div class="mb-5 heading-border"></div>
-        </div>
-      </div>
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/portfolio/fellowship.PNG" alt="fellowship">
+								<a href="#modal-02" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">Fellowship at The Bulb</h3>
+											<span class="folio-types">Website</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
 
-      <div class="row my-auto">
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/portfolio/the-bulb.png" alt="The Bulb">
+								<a href="#modal-03" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">The Bulb Africa</h3>	     					    
+											<span class="folio-types">Website</span>		     		
+										</div>	                      	
+									</div>                    
+								</a>
+							</div>
+						</div> <!-- /folio-item -->   
 
-        <div class="col-sm-4 portfolio-item filter consulting">
-          <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
-            <div class="caption-port">
-              <div class="caption-port-content">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/coflin.jpg" style="height: 230px; width: 400px" alt="" />
-          </a>
-        </div>
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/portfolio/accelerate.png" alt="Accelerate @The Bulb">
+								<a href="#modal-04" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">Accelerate @ The Bulb</h3>
+											<span class="folio-types">Website</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
 
-        <div class="col-sm-4 portfolio-item filter finance">
-          <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
-            <div class="caption-port">
-              <div class="caption-port-content">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/omni.jpg" style="height: 230px; width: 400px" alt="" />
-          </a>
-        </div>
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img src="images/portfolio/cpcompass.png" alt="Comercio Partners">
+								<a href="#modal-05" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">Comercio Partners</h3>
+											<span class="folio-types">Website</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
 
-        <div class="col-sm-4 portfolio-item filter marketing">
-          <a class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
-            <div class="caption-port">
-              <div class="caption-port-content">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/git2.jpg" style="height: 230px; width: 400px" alt="" />
-          </a>
-        </div>
+						<!-- modal popups - begin ============================================================= -->
+						<div id="modal-01" class="popup-modal slider mfp-hide">	
+							<div class="media">
+								<img src="images/portfolio/pace.PNG" alt="pace" />
+							</div>      	
+							<div class="description-box">
+								<h4>PACE Africa</h4>		      
+								<p>Pace is requitment platform that connects jobseekers to employers. Pace matches you with the right jobs and makes you stand out with your skills.</p>
+								<h6>React, Redux, Less</h6>
+								<div class="categories">Web Application</div>			               
+							</div>
+							<div class="link-box">
+								<a target="_blank" href="http://pace.africa">View</a>
+								<a href="#" class="popup-modal-dismiss">Close</a>
+							</div>		      
+						</div> <!-- /modal-01 -->
 
-        <div class="col-sm-4 portfolio-item filter consulting">
-          <a class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
-            <div class="caption-port">
-              <div class="caption-port-content">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/suey.jpg" style="height: 230px; width: 400px" alt="" />
-          </a>
-        </div>
+						<div id="modal-02" class="popup-modal slider mfp-hide">
+							<div class="media">
+								<img src="images/portfolio/modals/fellowship-m.PNG" alt="fellowship" />
+							</div>
+							<div class="description-box">
+								<h4>The Bulb Fellowship Website</h4>
+								<p>The Bulb Africa is a platform for Africans leveraging on technology. The Bulb Africa connects innovation from Africa to global opportunities.</p>
+								<h6>React, Typescript, Tailwind.css</h6>
+								<div class="categories">Website</div>
+							</div>
+							<div class="link-box">
+								<a target="_blank" href="https://fellowship.thebulb.africa/">View</a>
+								<a href="#" class="popup-modal-dismiss">Close</a>
+							</div>
+						</div> <!-- /modal-05 -->
+						
+						<div id="modal-03" class="popup-modal slider mfp-hide">
+							<div class="media">
+								<img src="images/portfolio/modals/the-bulb-m.png" alt="The Bulb Africa" />
+							</div>
+							<div class="description-box">
+								<h4>The Bulb Africa</h4>
+								<p>We are a platform for African tech talents leveraging technology. We create employment opportunities, help startups scale, mold young Africans into tech experts and provide communities to foster growth and career advancements.
+									<h6>JavaScript, React, Tailwind<h6>
+								</p>
+								<div class="categories">Website</div>
+							</div>
+							<div class="link-box">
+								<a target="_blank" href="https://thebulb.africa/">View</a>
+								<a href="#" class="popup-modal-dismiss">Close</a>
+							</div>
+						</div> <!-- /modal-06 -->
+
+						
+						<div id="modal-04" class="popup-modal slider mfp-hide">	
+							<div class="media">
+								<img src="images/portfolio/modals/accelerate-m.png" alt="" />
+							</div>      	
+							<div class="description-box">
+								<h4>ACCELERATE @THE BULB</h4>		      
+								<p>To create transformational opportunities for African tech founders, innovators, and enthusiasts by creating a learning platform that builds transferable and transportable skill sets to level the playing field for Africans in the fast-changing global workspace.</p>
+								<h6>JavaScript, React, Tailwind</h6>
+								<div class="categories">Website</div>			               
+							</div>
+							<div class="link-box">
+								<a target="_blank" href="https://accelerate.thebulb.africa/">View</a>
+								<a href="#" class="popup-modal-dismiss">Close</a>
+							</div>		      
+						</div> <!-- /modal-02 -->
+
+						<div id="modal-05" class="popup-modal slider mfp-hide">	
+							<div class="media">
+								<img src="images/portfolio/modals/cpcompass.png" alt="" />
+							</div>      	
+							<div class="description-box">
+								<h4>Comercio Partners</h4>		      
+								<p>We are Comercio Partners; an Investment Firm focused on Trading Fixed Income Securities, Derivatives and Equities, providing Financial Advisory and Asset Management services to domestic and international investors in the Sub-Saharan African Capital Market.<p>
+								<h6>JavaScript, React, Tailwind</h6>
+								<div class="categories">Website</div>			               
+							</div>
+							<div class="link-box">
+								<a target="_blank" href="https://cpcompass.ng/">View</a>
+								<a href="#" class="popup-modal-dismiss">Close</a>
+							</div>		      
+						</div>
+
+						
+						<!-- modal popups - end ============================================================= -->
+					</div> <!-- /portfolio-wrapper --> 
+				</div>  <!-- /twelve -->   
+			</div> <!-- /portfolio-content --> 	
+		</section> <!-- /portfolio --> 
+
+		<!-- services Section ================================================== -->
+		<section id="services">
+			<div class="overlay"></div>
+
+			<div class="row section-intro">
+				<div class="col-twelve">
+					<h5>Services</h5>
+					<h1>What Can I Do For You?</h1>
+					<p class="lead">Let's build the web together. </p>
+				</div>   		
+			</div> <!-- /section-intro -->
+
+			<div class="row services-content">
+				<div id="owl-slider" class="owl-carousel services-list">
+					<div class="service">	
+						<span class="icon"><i class="icon-earth"></i></span>            
+						<div class="service-content">	
+							<h3>Web Design</h3>
+							<p class="desc">I use latest technologies to create clean web designs and light
+							speed websites to make sure your visitors don't sleep off before you can make an impression.</p>
+						</div> 	         	
+					</div> <!-- /service -->
+
+					<div class="service">
+						<span class="icon"><i class="icon-window"></i></span>                          
+						<div class="service-content">	
+							<h3>Web Development</h3> 
+							<p class="desc">The applications I build are scalable, highly functional, client-side and server-side, and I integrate and manage the databases they are based on.</p>
+						</div>	                          
+					</div> <!-- /service -->
+
+					<div class="service">
+						<span class="icon"><i class="icon-paint-brush"></i></span>		            
+						<div class="service-content">
+							<h3	h3>Web Maintenance</h3>
+							<p class="desc">I do maintenance check on websites and web applications, fix issues and bugs, keep it updated, optimized and relevant, and also strenghten your SEO and
+							google rankings.</p>
+						</div> 	            	  
+					</div> <!-- /service -->
+				</div> <!-- /services-list -->
+			</div> <!-- /services-content -->
+		</section> <!-- /services -->	
+		
+		<!-- contact ================================================== -->
+		<section id="contact">
+			<div class="row section-intro">
+				<div class="col-twelve">
+					<h5>Contact</h5>
+					<h1>I'd Love To Hear From You.</h1>
+					<p class="lead">I value your feedback, and I look forward to work with you. So let me know what you think!</p>
+				</div> 
+			</div> <!-- /section-intro -->
+
+			<div class="row contact-info">
+				<div class="col-four tab-full collapse">
+					<div class="icon">
+						<i class="icon-mail"></i>
+					</div>
+					<h5>Email Me At</h5>
+					<p>isaiahtemitope4@gmail.com</p>
+				</div>
+
+				<div class="col-four tab-full">
+					<div class="icon">
+						<i class="icon-phone"></i>
+					</div>
+					<h5>Call Me At</h5>
+					<p>Mobile: +234 813 013 4671</p>
+				</div>
+			</div> <!-- /contact-info -->
+		</section> <!-- /contact -->
+
+			<!-- footer ================================================== -->
+
+		<footer>
+			<div class="row">
+				<div class="col-six tab-full pull-right social">
+					<ul class="footer-social">        
+						<li><a target="_blank" href="https://github.com/ishayasolo"><i class="fa fa-github"></i></a></li>
+						<li><a target="_blank" href="https://twitter.com/ishayasolo"><i class="fa fa-twitter"></i></a></li>
+						<li><a target="_blank" href="https://www.linkedin.com/in/ishayasolo"><i class="fa fa-linkedin"></i></a></li>
+					</ul> 	
+				</div>
+
+				<div class="col-six tab-full">
+					<div class="copyright">
+						<span>© Copyright Temitope 2022.</span>         	
+					</div>		                  
+				</div>
 
 
-        <!-- <div class="col-sm-4 portfolio-item filter consulting">
-          <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
-            <div class="caption-port">
-              <div class="caption-port-content">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/p-7.jpg" alt="" />
-          </a>
-        </div>
+			</div> <!-- /row -->     	
+		</footer>  
 
-        <div class="col-sm-4 portfolio-item filter consulting">
-          <a class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
-            <div class="caption-port">
-              <div class="caption-port-content">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/p-8.jpg" alt="" />
-          </a>
-        </div>
+		<div id="preloader"> 
+			<div id="loader"></div>
+		</div> 
 
-        <div class="col-sm-4 portfolio-item filter finance">
-          <a class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
-            <div class="caption-port">
-              <div class="caption-port-content">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/p-9.jpg" alt="" />
-          </a>
-        </div> -->
-      </div>
-    </section>
-
-    <!--====================================================
-                        SKILLS
-    ======================================================-->
-    <section class="d-flex flex-column" id="skills">
-      <div class="p-lg-5 p-3 skill-cover">
-        <h3 class="text-center text-white">Coding Skills</h3>
-        <div class="row text-center my-auto">
-          <div class="col-md-3 col-sm-6">
-            <div class="skill-item">
-              <img src="./img/skills/html.png" style="width: 80px; height: auto" alt="html5" />
-              <h2><span class="counter"> 85 </span><span>%</span></h2>
-              <p>HTML5</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="skill-item">
-              <img src="./img/skills/css3.jpg" style="width: 75px; height: 80px" alt="css3" />
-              <h2><span class="counter"> 85 </span><span>%</span></h2>
-              <p>CSS3</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="skill-item">
-              <img src="./img/skills/bootstrap.jpg" style="width: 80px; height: auto" alt="" />
-              <h2><span class="counter"> 83 </span><span>%</span></h2>
-              <p>Bootstrap</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="skill-item">
-              <img src="./img/skills/react.png" style="width: 80px; height: 80px" alt="" />
-              <h2><span class="counter"> 70 </span><span>%</span></h2>
-              <p>React</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="skill-item">
-              <img src="./img/skills/expressjs.png" style="width: 80px; height: 80px" alt="" />
-              <h2><span class="counter"> 75 </span><span>%</span></h2>
-              <p>Express</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="skill-item">
-              <img src="./img/skills/mongo.png" style="width: 80px; height: 80px" alt="" />
-              <h2><span class="counter"> 70 </span><span>%</span></h2>
-              <p>Mongodb</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="skill-item">
-              <img src="./img/skills/nodes.png" style="width: 80px; height: 80px" alt="" />
-              <h2><span class="counter"> 75 </span><span>%</span></h2>
-              <p>Node</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="skill-item">
-              <img src="./img/skills/redux.png" style="width: 80px; height: 80px" alt="" />
-              <h2><span class="counter"> 65 </span><span>%</span></h2>
-              <p>Redux</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--====================================================
-                           educationS
-    ======================================================-->
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="educations">
-      <div class="row my-auto">
-        <div class="col-12">
-          <h2 class="text-center">Educations</h2>
-          <div class="mb-5 heading-border"></div>
-        </div>
-        <div class="main-education" id="education-box">
-          <div class="education">
-            <div class="education-icon"></div>
-            <div class="education-content">
-              <span class="date">2013 - 2019</span>
-              <h5 class="title">Bachelor's degree in computer engineering</h5>
-              <p class="description">
-                Ekiti State university, Ado Ekiti
-              </p>
-            </div>
-          </div>
-          <div class="education">
-            <div class="education-icon"></div>
-            <div class="education-content">
-              <span class="date">2005 - 2011</span>
-              <h5 class="title">high school secondary education</h5>
-              <p class="description">
-                Vetaland Senior Grammar School Ifako Ijaye, Lagos State. Sport prefect for the academic session
-                2009/2010 and labour prefect for the academic session 2010/2011
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--====================================================
-                          CONTACT
-    ======================================================-->
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column">
-      <div class="row my-auto" id="contact">
-        <div class="col-md-8">
-          <div class="contact-cont">
-            <h3>CONTACT Us</h3>
-            <div class="heading-border-light"></div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
-              venenatis enim. Aenean hendrerit justo sed.
-            </p>
-          </div>
-          <div class="row con-form">
-            <div class="col-md-12">
-              <input type="text" name="full-name" placeholder="Full Name" class="form-control" />
-            </div>
-            <div class="col-md-12">
-              <input type="text" name="email" placeholder="Email Id" class="form-control" />
-            </div>
-            <div class="col-md-12">
-              <input type="text" name="subject" placeholder="Subject" class="form-control" />
-            </div>
-            <div class="col-md-12"><textarea name="" id=""></textarea></div>
-            <div class="col-md-12 sub-but">
-              <button class="btn btn-general btn-white" role="button">
-                Send
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-12 mt-5">
-          <div class="contact-cont2">
-            <div class="contact-add contact-box-desc">
-              <h3>
-                <i class="fa fa-map-marker cl-atlantis fa-2x"></i> Address
-              </h3>
-              <p>
-                7, Ogunoiki close, Abule-Egba <br />
-                Lagos, Nigeria <br />
-              </p>
-            </div>
-            <div class="contact-phone contact-side-desc contact-box-desc">
-              <h3><i class="fa fa-phone cl-atlantis fa-2x"></i> Phone</h3>
-              <p>
-                +234 813 013 4671 <br />
-                +234 808 463 7048
-              </p>
-            </div>
-            <div class="contact-mail contact-side-desc contact-box-desc">
-              <h3>
-                <i class="fa fa-envelope-o cl-atlantis fa-2x"></i> Email
-              </h3>
-              <address class="address-details-f">
-                Email:
-                <a href="isaiahtemitope4@gmail.com" class="">isaiahtemitope4@gmail.com</a>
-              </address>
-              <ul class="list-inline social-icon-f top-data">
-                <li>
-                  <a href="https://web.facebook.com/sammayrian" target="_empty"><i class="fa top-social fa-facebook"
-                      style="color: #4267b2; border-color: #4267b2"></i></a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/engr_smit" target="_empty"><i class="fa top-social fa-twitter"
-                      style="color: #4ab3f4; border-color: #4ab3f4"></i></a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/isaiah-temitope-03b43a19a/" target="_empty"><i
-                      class="fa top-social fa-linkedin" style="color: #4267b2; border-color: #4267b2"></i></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="d-flex flex-column" id="maps">
-      <div id="map">
-        <div class="map-responsive">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.928695928522!2d3.292688314771412!3d6.655759995187457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b972ba1a4eba3%3A0x87fa27c8da0b66bf!2sAbule%20Taylor%20Bus%20Stop!5e0!3m2!1sen!2sng!4v1624888503760!5m2!1sen!2sng"
-            width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy">
-          </iframe>
-        </div>
-      </div>
-    </section>
-  </div>
-
-  <!--====================================================
-                    PORTFOLIO MODALS
-======================================================-->
-
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="modal-body">
-              <div class="title-bar">
-                <div class="col-md-12">
-                  <h2 class="text-center">Our Project</h2>
-                  <div class="heading-border"></div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6">
-                  <img class="img-fluid img-centered" src="img/portfolio/omni.jpg" alt="" />
-                </div>
-                <div class="col-md-6">
-                  <p>
-                    Hello, we reachout to as many customer who requested for
-                    food without delay within a blink of an eye, your new
-                    premium food delivery service. We know you’re always busy.
-                    No time for cooking. So let us take care of that, we’re
-                    really good at it, we promise!
-                  </p>
-                  <p>
-                    Never cook again! We really mean that. Our subscription
-                    plans include up to 365 days/year coverage. You can also
-                    choose to order more flexibly if that's your style.
-                  </p>
-                  <p>
-                    You're only twenty minutes away from your delicious and
-                    super healthy meals delivered right to your home. We work
-                    with the best chefs in each town to ensure that you're
-                    100% happy.
-                  </p>
-
-                  <button class="btn btn-general btn-white" type="button"
-                    onclick="window.open('https://decameal.netlify.app/', '_blank')" data-dismiss="modal">
-                    <i class="fa fa-opens"></i> Open
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="modal-body">
-              <div class="title-bar">
-                <div class="col-md-12">
-                  <h2 class="text-center">Our Project</h2>
-                  <div class="heading-border"></div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6">
-                  <img class="img-fluid img-centered" src="img/portfolio/git2.JPG" alt="" />
-                </div>
-                <div class="col-md-6">
-                  <p>
-                    This web app(gitsearch1298) is built with react js, API's
-                    were fetched from github in order to communicate with the
-                    gitsearch1298 interface in providing users with details of
-                    github users.
-                  </p>
-                  <button class="btn btn-general btn-white" type="button"
-                    onclick="window.open('https://gitsearch1298.netlify.app/', '_blank')" data-dismiss="modal">
-                    <i class="fa fa-opens"></i> Open
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="modal-body">
-              <div class="title-bar">
-                <div class="col-md-12">
-                  <h2 class="text-center">Our Project</h2>
-                  <div class="heading-border"></div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6">
-                  <img class="img-fluid img-centered" src="img/portfolio/suey.jpg" alt="" />
-                </div>
-                <div class="col-md-6">
-                  <p>
-                    This web app is a mini e-commerce project to demonstrate a fully responsive drug store. The web app you are about visiting is built on react js, context API,
-                    react-bootstrap and bootstrap. All visible data on this page are fetched using an context API
-                  </p>
-                  <button class="btn btn-general btn-white" type="button"
-                    onclick="window.open('https://lifestores.vercel.app/', '_blank')" data-dismiss="modal">
-                    <i class="fa fa-opens"></i> Open
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="modal-body">
-              <div class="title-bar">
-                <div class="col-md-12">
-                  <h2 class="text-center">Our Project</h2>
-                  <div class="heading-border"></div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6">
-                  <img class="img-fluid img-centered" src="img/portfolio/suey.jpg" alt="" />
-                </div>
-                <div class="col-md-6">
-                  <p>
-                    This web app(smit food) demonstrate a fully responsive food app interface designed to view the
-                    services rendered in smit food company. The web app you are about visiting is built on react js,
-                    react-bootstrap and bootstrap. All visible data on this page are fetched using an API
-                  </p>
-                  <button class="btn btn-general btn-white" type="button"
-                    onclick="window.open('https://eat-all.netlify.app/', '_blank')" data-dismiss="modal">
-                    <i class="fa fa-opens"></i> Open
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Global javascript -->
-  <script src="js/jquery/jquery.min.js"></script>
-  <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
-  <script src="js/jquery-easing/jquery.easing.min.js"></script>
-  <script src="js/counter/jquery.waypoints.min.js"></script>
-  <script src="js/counter/jquery.counterup.min.js"></script>
-  <script src="js/custom.js"></script>
-  <script>
-    $(document).ready(function () {
-      $(".filter-b").click(function () {
-        var value = $(this).attr("data-filter");
-        if (value == "all") {
-          $(".filter").show("1000");
-        } else {
-          $(".filter")
-            .not("." + value)
-            .hide("3000");
-          $(".filter")
-            .filter("." + value)
-            .show("3000");
-        }
-      });
-
-      if ($(".filter-b").removeClass("active")) {
-        $(this).removeClass("active");
-      }
-      $(this).addClass("active");
-    });
-
-    // SKILLS
-    $(function () {
-      $(".counter").counterUp({
-        delay: 10,
-        time: 2000
-      });
-    });
-  </script>
-</body>
-
+		<!-- Java Script ================================================== --> 
+		<script src="js/jquery-2.1.3.min.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/main.js"></script>
+	</body>
 </html>
